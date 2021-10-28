@@ -24,7 +24,7 @@ await userRef.set({
     displayName,
     email,
     createdAt,
-    ...aditionalData
+    ...additionalData
 })
     } catch (error) {
         console.log('error creating user', error.message)
